@@ -1,0 +1,44 @@
+--Selectables--
+- selectable_countries
+- selectable_business_types
+- selectable_business_keywords
+- selectable_business_interest
+- selectable_business_sectors
+- selectable_investor_types
+- selectable_genders
+
+----
+- user
+- business
+- business_type
+- business_user
+- business_sector
+- business_country
+- business_connection
+- user_track_types
+- user_tracks (logs user actions)
+- products
+- product_plans
+- user_product
+- business_product
+
+--Product Tracks--
+- invoices
+- product_orders
+- product_order_track_types
+- product_order_tracks
+
+--Pivot tables--
+- business_interest
+- business_keyword
+
+--Utility tables--
+- files
+
+--Chat tables--
+- chat_rooms
+- conversations
+- chat_room_conversation
+- conversation_user
+- chat_messages
+- chat_message_attachements
